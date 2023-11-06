@@ -14,7 +14,8 @@ cursor.execute('''CREATE TABLE IF NOT EXISTS students (
                     grade_period TEXT,
                     time_in TEXT,
                     time_out TEXT
-                )'')
+                )''')
+
 
 def create_record(stu_id, stu_last, stu_first, teacher_class, grade_period, time_in, time_out):
     # Insert a new student record into the database
